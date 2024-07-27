@@ -4,12 +4,12 @@ package com.example;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class CalculatorTest {
+class CalculatorTest {
 
     private final Calculator calculator = new Calculator();
 
     @Test
-    public void testAdd() {
+    void testAdd() {
         assertEquals(5, calculator.add(2, 3));
     }
 
